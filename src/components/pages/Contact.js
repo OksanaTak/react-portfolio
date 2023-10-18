@@ -1,22 +1,25 @@
-import React from 'react';
+import React from 'react'
+let linkedin = '/assets/images/linkedin.jpeg';
+let github = '/assets/images/linkedin.jpeg';
+let email = '/assets/images/linkedin.jpeg';
 
-export default function Contact() {
+export default function Contact () {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+
+    
+        <a target='_blank' href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'>
+        <img height="10px" width= "10px" src={process.env.PUBLIC_URL + linkedin} alt="linkedin" />
+        </a>
+    
+    
+        <a target='_blank' href='https://github.com/OksanaTak'>
+        <img height="10px" width= "10px" src={process.env.PUBLIC_URL + github} alt="github" />        </a>
+     
+        <a target='_blank' href='mailto:oksana.tatsyak@gmail.com'>
+        <img height="10px" width= "10px" src={process.env.PUBLIC_URL + email} alt="email" />        </a>
+  
     </div>
-  );
+  )
 }
