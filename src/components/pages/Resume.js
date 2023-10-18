@@ -1,9 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-export default function Resume() {
+export default function Resume () {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <h1 className='text-center'>Resume Page</h1>
+      <h2> Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Script</li>
+      </ul>
+      <h2> Experience </h2>
+      
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -20,5 +28,5 @@ export default function Resume() {
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
     </div>
-  );
+  )
 }
