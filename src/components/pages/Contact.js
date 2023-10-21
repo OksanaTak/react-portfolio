@@ -13,15 +13,15 @@ export default function Contact () {
   Please, stay in touch! Contact me!
 </p>
     
-        <a target='_blank' href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'>
+        <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'>
         <img className='icons' src={process.env.PUBLIC_URL + linkedin} alt="linkedin" />
         </a>
     
     
-        <a target='_blank' href='https://github.com/OksanaTak'>
+        <a target='_blank' rel="noopener noreferrer" href='https://github.com/OksanaTak'>
         <img className='icons' src={process.env.PUBLIC_URL + github} alt="github" />        </a>
      
-        <a target='_blank' href='mailto:oksana.tatsyak@gmail.com'>
+        <a target='_blank' rel="noopener noreferrer" href='mailto:oksana.tatsyak@gmail.com'>
         <img className='icons' src={process.env.PUBLIC_URL + email} alt="email" />        </a>
   
     </div>
