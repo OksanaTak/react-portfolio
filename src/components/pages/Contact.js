@@ -3,7 +3,7 @@ import './contact.css'
 
 let linkedin = '/assets/images/linkedin.jpeg';
 let github = '/assets/images/github.png';
-let email = '/assets/images/gmail.png';
+let email = '/assets/images/email.png';
 
 export default function Contact () {
   return (
