@@ -14,7 +14,7 @@ export default function Resume () {
       
       <p>
         <strong> Please, find my Resume
-        <a target="_blank" rel="noopener noreferrer" className="tab4" href={process.env.PUBLIC_URL + "/assets/images/Resume.pdf"}>  Here</a></strong>
+        <a target="_blank" rel="noopener noreferrer" className="tab4" href={process.env.PUBLIC_URL + "/assets/images/Oksana_Resume"}>  Here</a></strong>
       </p>
     </div>
   )
