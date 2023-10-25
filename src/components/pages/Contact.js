@@ -7,7 +7,7 @@ let email = '/assets/images/email.png';
 
 export default function Contact () {
   return (
-    <div className='text-center'>
+    <div className='text-center'> 
       <h1>Contact Page</h1>
 <p>
   Please, stay in touch! Contact me!
