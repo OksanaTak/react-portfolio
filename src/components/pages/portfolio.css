@@ -6,3 +6,17 @@ img  {
     border: 2px solid black;
     text-align: center;
 }
+.text-center{
+    color: rgb(251, 222, 2);
+    text-emphasis-style:bold 40px;
+    margin: 10px;
+
+}
+text-center col-md-5{
+    color: rgb(251, 222, 2);
+    text-emphasis-style:bold 40px;
+}
+
+.className= skillsList {
+
+}

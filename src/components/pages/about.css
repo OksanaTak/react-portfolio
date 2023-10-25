@@ -1,14 +1,17 @@
 body {
     background-color: rgb(150, 87, 208);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 25px;
+}
+.text-center{
+text-emphasis-style:bold 40px;
 }
 
 .div-wrapper{
     align-items: center;
     justify-content: center;
     background-color: rgb(150, 87, 208);
-    color: rgb(246, 180, 13)
+    color: rgb(251, 222, 2);
     
 
 }

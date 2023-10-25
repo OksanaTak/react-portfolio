@@ -8,11 +8,11 @@ let email = '/assets/images/email.png';
 export default function Contact () {
   return (
     <div className='text-center'> 
-      <h1>Contact Page</h1>
+      <h1>Contact</h1>
 <p>
-  Please, stay in touch! Contact me!
+  Please, stay in touch!
 </p>
-    
+    <div className='contactLinks'> 
         <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'>
         <img className='icons' src={process.env.PUBLIC_URL + linkedin} alt="linkedin" />
         </a>
@@ -23,7 +23,8 @@ export default function Contact () {
      
         <a target='_blank' rel="noopener noreferrer" href='mailto:oksana.tatsyak@gmail.com'>
         <img className='icons' src={process.env.PUBLIC_URL + email} alt="email" />        </a>
-  
-    </div>
+        </div> 
+        </div>
+   
   )
 }

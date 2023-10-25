@@ -6,7 +6,7 @@ let Project2_img ='/assets/images/payitforward.png'
 let Project3_img = '/assets/images/travelgeek.png'
 let Project4_img = '/assets/images/weatherdashboard.png'
 let Project5_img = '/assets/images/dayscheduler.png' 
-let Project6_img ='/assets/images/JavaScriptQuiz.png'
+let Project6_img ='/assets/images/jsquiz.png'
 
 export default function Portfolio () {
   return (
