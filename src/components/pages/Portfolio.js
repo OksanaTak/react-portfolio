@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 let Project1_img = '/assets/images/Job.BI.png'
 let Project2_img ='/assets/images/payitforward.png'
 let Project3_img = '/assets/images/travelgeek.png'

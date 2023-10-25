@@ -1,32 +1,39 @@
-import React from 'react';
-let myPic = '/assets/images/Oksana-Portrait.jpeg';
-export default function About() {
+import React from 'react'
+import "./about.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+let myPic = '/assets/images/Oksana-Portrait.jpeg'
+export default function About () {
   return (
-    <div>
-      <h1 className="text-center"> Oksana Tatsyak</h1>
-
-      <img className = "float-left" height="200px" src={process.env.PUBLIC_URL + myPic} alt="myPicture" />
-<p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui 
-        fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+   
+    <div className='div-wrapper'> 
+      <h1 className='text-center'> Oksana Tatsyak</h1>
+    <div className='div-wrapper'>
+      <div className='image'> 
+      <img
+        className='float-left'
+        src={process.env.PUBLIC_URL + myPic}
+        alt='myPicture'/> 
+      </div>
+      <p className='float-left'>
+        An educator by vocation and training, I have a vast teaching experience
+        that includes teaching college and highschool students in the United
+        States, Canada, and my native Ukraine.
       </p>
-
-      <p>
-        lorem ipsum dolor sit amet, consectetur adip
-        </p>
-        lorem ipsum dolor sit amet, consectetur adip
-        <p>
-
-        </p>
+      <p className='float-left'>
+        While working as a Special Education teacher with the California School
+        District, I had the opportunity to teach students with wide range of
+        needs and abilities. This experience inspired me to develop Software
+        programs that help these differently-abled students learn, develop
+        critical life skills and succeed.
+      </p>
+      <p className='float-left'>
+        The idea of helping Special Needs students has brought me to the Full
+        Stack Web Development BootCamp offered via Berkley Extension School. The
+        Bootcamp equipped me with the necessary skills in front and backend web
+        development to build learning and communication apps for my students to
+        use and enhance the quality of their life.
+      </p>
     </div>
-  );
+    </div>
+  )
 }

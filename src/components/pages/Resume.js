@@ -1,8 +1,8 @@
 import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Resume () {
   return (
-    <div className='text-center'>
+    <div className='text-center' backgound-color='violet'>
       <h1 className='text-center'>Resume Page</h1>
       <h2> Skills</h2>
       <ul>
