@@ -7,6 +7,9 @@ let Project3_img = '/assets/images/travelgeek.png'
 let Project4_img = '/assets/images/weatherdashboard.png'
 let Project5_img = '/assets/images/dayscheduler.png' 
 let Project6_img ='/assets/images/jsquiz.png'
+let linkedin = '/assets/images/linkedin.jpeg'
+let github = '/assets/images/github.png'
+let email = '/assets/images/email.png'
 
 export default function Portfolio () {
   return (
@@ -91,6 +94,43 @@ export default function Portfolio () {
             <img src={process.env.PUBLIC_URL + Project6_img}></img>{' '}
           </a>
         </div>
+      </div>
+      <div className='footer'>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + linkedin}
+            alt='linkedin'
+          />
+        </a>
+
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://github.com/OksanaTak'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + github}
+            alt='github'
+          />{' '}
+        </a>
+
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='mailto:oksana.tatsyak@gmail.com'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + email}
+            alt='email'
+          />{' '}
+        </a>
       </div>
     </div>
   )

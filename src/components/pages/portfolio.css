@@ -16,7 +16,16 @@ text-center col-md-5{
     color: rgb(251, 222, 2);
     text-emphasis-style:bold 40px;
 }
+.footer{
 
-.className= skillsList {
+    background-color: #333; /* Background color of the footer */
+            color: white; /* Text color in the footer */
+            text-align: center; /* Center-align the text */
+            padding: 10px; /* Add some padding for better appearance */
+            position: fixed; /* Stick the footer to the bottom of the viewport */
+            left: 0; /* Position it to the left */
+            bottom: 0; /* Position it at the bottom */
+            width: 100%; /* Make it stretch the full width of the viewport */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; }
 
-}

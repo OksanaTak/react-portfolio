@@ -1,6 +1,10 @@
 import React from 'react'
 import './portfolio.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+let linkedin = '/assets/images/linkedin.jpeg'
+let github = '/assets/images/github.png'
+let email = '/assets/images/email.png'
+
 export default function Resume () {
   return (
     <div  backgound-color='violet'>
@@ -32,6 +36,43 @@ export default function Resume () {
         <strong> Please, find my Resume
         <a target="_blank" rel="noopener noreferrer" className="tab4" href={process.env.PUBLIC_URL + "/assets/images/Oksana_Resume.pdf"}>  Here</a></strong>
       </p>
+      <div className='footer'>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + linkedin}
+            alt='linkedin'
+          />
+        </a>
+
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://github.com/OksanaTak'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + github}
+            alt='github'
+          />{' '}
+        </a>
+
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='mailto:oksana.tatsyak@gmail.com'
+        >
+          <img
+            className='icons'
+            src={process.env.PUBLIC_URL + email}
+            alt='email'
+          />{' '}
+        </a>
+      </div>
     </div>
   )
 }
