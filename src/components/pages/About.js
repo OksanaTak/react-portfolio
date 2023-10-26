@@ -2,6 +2,10 @@ import React from 'react'
 import "./about.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 let myPic = '/assets/images/Oksana-Portrait.jpeg'
+let linkedin = '/assets/images/linkedin.jpeg';
+let github = '/assets/images/github.png';
+let email = '/assets/images/email.png';
+
 export default function About () {
   return (
    
@@ -34,6 +38,18 @@ export default function About () {
         use and enhance the quality of their life.
       </p>
     </div>
+    <div className='footer'> 
+        <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/oksana-tatsyak-048b0727a/'>
+        <img className='icons' src={process.env.PUBLIC_URL + linkedin} alt="linkedin" />
+        </a>
+    
+    
+        <a target='_blank' rel="noopener noreferrer" href='https://github.com/OksanaTak'>
+        <img className='icons' src={process.env.PUBLIC_URL + github} alt="github" />        </a>
+     
+        <a target='_blank' rel="noopener noreferrer" href='mailto:oksana.tatsyak@gmail.com'>
+        <img className='icons' src={process.env.PUBLIC_URL + email} alt="email" />        </a>
+        </div> 
     </div>
   )
 }
