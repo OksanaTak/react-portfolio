@@ -26,6 +26,12 @@ export default function Portfolio () {
         </div>
         <div className='text-center col-md-5'>
           <h2 className='text-center'> Pay It Forward App</h2>
+          <a target='_blank' href='https://github.com/chandraucb/payitforward'>
+                
+          <h3>Github Link</h3>
+
+          </a>
+
           <p>
           {' '} 
           Pay it Forward is a Social Network Platform that connects volunteers with service projects, cultivates acts of kindness, and builds caring communities. 
