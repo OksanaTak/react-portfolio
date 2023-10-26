@@ -34,6 +34,9 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 # react-portfolio 
+##Home Page Photo 
+<img src="/assets/images/portfolio-home.png/">;
+
 ### Deployment
 [GITHUB](https://github.com/OksanaTak/react-portfolio)
 [Website](https://oksanatak.github.io/react-portfolio/)

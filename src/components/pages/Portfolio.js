@@ -54,7 +54,10 @@ export default function Portfolio () {
       <div className='row'>
         <div className='text-center col-md-5'>
           <h2 className='text-center'> Travel Geek App </h2>
-          <a target='_blank' href='https://github.com/SquirrelsAtARave/Travel-Geek'>
+          <a
+            target='_blank'
+            href='https://github.com/SquirrelsAtARave/Travel-Geek'
+          >
             <h3>github link</h3>
           </a>
           <p>
@@ -62,7 +65,8 @@ export default function Portfolio () {
             Travel Geek App makes planning itinerary, scheduling activities,
             tracking expanses and budgeting travels effortless and stress-free.{' '}
           </p>
-          <a target='_blank'
+          <a
+            target='_blank'
             href='https://travelgeekalicia-bd545f74fdfc.herokuapp.com/'
           >
             {' '}
@@ -71,8 +75,10 @@ export default function Portfolio () {
         </div>
         <div className='text-center col-md-5'>
           <h2 className='text-center'> Weather Dashboard App </h2>
-          <a target='_blank'
-            href='https://github.com/OksanaTak/weather-dashboard/'>
+          <a
+            target='_blank'
+            href='https://github.com/OksanaTak/weather-dashboard/'
+          >
             <h3>github link</h3>
           </a>
           <p>
@@ -80,7 +86,8 @@ export default function Portfolio () {
             Weather Dashboard App that tracks weather updates in real time. nisi
             ac dui{' '}
           </p>
-          <a target='_blank'
+          <a
+            target='_blank'
             href='https://oksanatak.github.io/weather-dashboard/'
           >
             {' '}
@@ -91,7 +98,10 @@ export default function Portfolio () {
       <div className='row'>
         <div className='text-center col-md-5'>
           <h2 className='text-center'> Work Day Scheduler App </h2>
-          <a target='_blank' href='https://github.com/OksanaTak/Work-Day-Scheduler'>
+          <a
+            target='_blank'
+            href='https://github.com/OksanaTak/Work-Day-Scheduler'
+          >
             <h3>github link</h3>
           </a>
           <p>
@@ -123,6 +133,10 @@ export default function Portfolio () {
           </a>
         </div>
       </div>
+      <div>
+        <p></p>
+      </div>
+
       <div className='footer'>
         <a
           target='_blank'

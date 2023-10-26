@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 let myPic = '/assets/images/Oksana-Portrait.jpeg'
+
 let linkedin = '/assets/images/linkedin.jpeg'
 let github = '/assets/images/github.png'
 let email = '/assets/images/email.png'
