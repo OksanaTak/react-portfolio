@@ -35,7 +35,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 # react-portfolio 
 ##Home Page Photo 
-<img src="/assets/images/portfolio-home.png/">;
+
+<img src="./assets/images/portfolio.png"/>
 
 ### Deployment
 [GITHUB](https://github.com/OksanaTak/react-portfolio)
