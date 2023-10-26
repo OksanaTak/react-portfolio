@@ -16,7 +16,7 @@ function ContactForm() {
   const [errors, setErrors] = useState({});
 
   const validateEmail = (email) => {
-    // Basic email validation regex
+   
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
     return !emailRegex.test(email);
   };
@@ -28,13 +28,13 @@ function ContactForm() {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     
-    // Check if the field is required and not empty
+   
     if (value.trim() === '' && name !== 'message') {
       setErrors({ ...errors, [name]: 'This field is required' });
     } else if (name === 'email' && validateEmail(value)) {
       setErrors({ ...errors, email: 'Invalid email address' });
     } else {
-      // Clear the error if the input is valid
+     
       setErrors({ ...errors, [name]: '' });
     }
 
