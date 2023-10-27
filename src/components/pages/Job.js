@@ -8,7 +8,7 @@ function Job(props){
       <div  className='main'>
         <div>
        
-          <h2 className='text-center m-5'>{props.title}</h2>
+          <h2 className='text-center m-lg-1'>{props.title}</h2>
           <a target='_blank' href={props.github} rel="noreferrer">
             <h3>Github link</h3>
           </a>
@@ -16,8 +16,8 @@ function Job(props){
             {props.description}
           </p>
           <a target='_blank' href={props.liveLink} rel="noreferrer">
-            {' '}
-            <img src={process.env.PUBLIC_URL + props.img} alt="project_img"></img>{' '}
+            
+            <img src={process.env.PUBLIC_URL + props.img} alt="project_img"></img>
           </a>
           <p></p>
         </div>
