@@ -8,7 +8,7 @@ function Job(props){
       <div  className='main'>
         <div>
        
-          <h2 className='text-center'>{props.title}</h2>
+          <h2 className='text-center m-5'>{props.title}</h2>
           <a target='_blank' href={props.github} rel="noreferrer">
             <h3>Github link</h3>
           </a>
