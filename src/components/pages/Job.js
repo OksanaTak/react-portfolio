@@ -6,7 +6,7 @@ function Job(props){
   
     return (
       <div  className='main'>
-        <div className='text-center col-md-5'>
+        <div>
        
           <h2 className='text-center'>{props.title}</h2>
           <a target='_blank' href={props.github} rel="noreferrer">

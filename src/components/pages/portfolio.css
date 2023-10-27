@@ -5,6 +5,7 @@ img  {
     padding: 20px;
     border: 2px solid black;
     text-align: center;
+    align-self: center;
 }
 .text-center{
     color: rgb(251, 222, 2);
@@ -16,13 +17,15 @@ img  {
     flex: 2; /* Allow the main content to grow and fill available space */
     padding: 20px;
 }
-text-center col-md-5{
+.text-center.col-md-5{
     color: rgb(251, 222, 2);
     text-emphasis-style:bold 40px;
+
 }
 .flex-container {
     display: flex;
-            flex-direction: column; /* Arrange items vertically */
+            flex-direction:row;
+            flex-wrap: wrap; /* Arrange items vertically */
             height: 100vh;
 }
 .footer{

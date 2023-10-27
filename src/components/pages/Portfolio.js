@@ -40,7 +40,6 @@ export default function Portfolio () {
   return (
     <div className='flex-container'>
       <h1 className='text-center'>Portfolio Page</h1>
-
       {jobs.map((job, index) => (
         <Job
           key={index}
