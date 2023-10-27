@@ -8,17 +8,18 @@ let Project4_img = '/assets/images/weatherdashboard.png'
 let Project5_img = '/assets/images/dayscheduler.png'
 let Project6_img = '/assets/images/jsquiz.png'
 
-function Jobs(props){
+function Job(props){
+  console.log(props)
     return (
         <div className='text-center col-md-5'>
           <h2 className='text-center'>{props.title}</h2>
-          <a target='_blank' href={props.livelink} rel="noreferrer">
+          <a target='_blank' href={props.github} rel="noreferrer">
             <h3>Github link</h3>
           </a>
           <p>
             {props.description}
           </p>
-          <a target='_blank' href={props.github} rel="noreferrer">
+          <a target='_blank' href={props.liveLink} rel="noreferrer">
             {' '}
             <img src={process.env.PUBLIC_URL + props.img} alt="project_img"></img>{' '}
           </a>
@@ -26,4 +27,4 @@ function Jobs(props){
     );
 }
 
-export default Jobs;
+export default Job;
