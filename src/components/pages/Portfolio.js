@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Job from "./Job"
 
 
-let Project5_img = '/assets/images/dayscheduler.png'
-let Project6_img = '/assets/images/jsquiz.png'
 let linkedin = '/assets/images/linkedin.jpeg'
 let github = '/assets/images/github.png'
 let email = '/assets/images/email.png'
@@ -33,7 +31,19 @@ const jobs = [
         "liveLink": "https://oksanatak.github.io/weather-dashboard/",
        "description": "Weather Dashboard App that tracks weather updates in real time. nisi ac dui",
        "github": "https://github.com/OksanaTak/weather-dashboard/",
-       "img": "/assets/images/weatherdashboard.png"}
+       "img": "/assets/images/weatherdashboard.png"},
+
+       {"title": "Work Day Scheduler App",
+        "liveLink": "https://oksanatak.github.io/Work-Day-Scheduler/",
+       "description": "Work Day Scheduler App helps to efficiently schedule and manage daily appointments and activities at work.",
+       "github": "https://github.com/OksanaTak/Work-Day-Scheduler",
+       "img": "/assets/images/dayscheduler.png"},
+
+       {"title": "Java Script Quiz App",
+        "liveLink": "https://oksanatak.github.io/JSquiz/",
+       "description": "Java Script Quiz App is a fun educational tool to lear about JavaScript.",
+       "github": "https://github.com/OksanaTak/JSquiz",
+       "img": "/assets/images/jsquiz.png"}
 ]
 
 export default function Portfolio () {
