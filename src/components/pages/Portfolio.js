@@ -3,10 +3,7 @@ import './portfolio.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Job from "./Job"
 
-let Project1_img = '/assets/images/Job.BI.png'
-let Project2_img = '/assets/images/payitforward.png'
-let Project3_img = '/assets/images/travelgeek.png'
-let Project4_img = '/assets/images/weatherdashboard.png'
+
 let Project5_img = '/assets/images/dayscheduler.png'
 let Project6_img = '/assets/images/jsquiz.png'
 let linkedin = '/assets/images/linkedin.jpeg'
@@ -18,12 +15,30 @@ const jobs = [
          "liveLink": "https://markthos.github.io/Job.BI/",
         "description": "A professional growth platform powered by Business Intelligence to set you on a career journey you have always dreamed of!",
         "github": "https://github.com/markthos/Job.BI",
-        "img": "/assets/images/Job.BI.png"}
+        "img": "/assets/images/Job.BI.png"},
+
+        {"title": "Pay It Forward App",
+         "liveLink": "https://payitforward-app-46493cd9589e.herokuapp.com/",
+        "description": "Pay it Forward is a Social Network Platform that connects volunteers with service projects, cultivates acts of kindness, and builds caring communities.",
+        "github": "https://github.com/chandraucb/payitforward",
+        "img": "/assets/images/payitforward.png"},
+
+        {"title": "Travel Geek App",
+        "liveLink": "https://travelgeekalicia-bd545f74fdfc.herokuapp.com/",
+       "description": "Travel Geek App makes planning itinerary, scheduling activities, tracking expanses and budgeting travels effortless and stress-free.",
+       "github": "https://github.com/SquirrelsAtARave/Travel-Geek",
+       "img": "/assets/images/travelgeek.png"},
+
+       {"title": "Weather Dashboard App",
+        "liveLink": "https://oksanatak.github.io/weather-dashboard/",
+       "description": "Weather Dashboard App that tracks weather updates in real time. nisi ac dui",
+       "github": "https://github.com/OksanaTak/weather-dashboard/",
+       "img": "/assets/images/weatherdashboard.png"}
 ]
 
 export default function Portfolio () {
   return (
-    <div>
+    <div className='flex-container'>
       <h1 className='text-center'>Portfolio Page</h1>
 
       {jobs.map((job, index) => (
@@ -36,9 +51,7 @@ export default function Portfolio () {
           github={job.github}
         />
       ))}
-      <div>
-        <p></p>
-      </div>
+
 
       <div className='footer'>
         <a

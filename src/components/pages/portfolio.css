@@ -12,9 +12,18 @@ img  {
     margin: 10px;
 
 }
+.main {
+    flex: 2; /* Allow the main content to grow and fill available space */
+    padding: 20px;
+}
 text-center col-md-5{
     color: rgb(251, 222, 2);
     text-emphasis-style:bold 40px;
+}
+.flex-container {
+    display: flex;
+            flex-direction: column; /* Arrange items vertically */
+            height: 100vh;
 }
 .footer{
 
